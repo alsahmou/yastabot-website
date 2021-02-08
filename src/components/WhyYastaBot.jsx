@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class WhyYastabot extends Component {
   render() {
     return (
-        <div id="why-yastabot" className="text-center">
+      <div id="why-yastabot" className="text-center">
         <div className="container">
           <div className="row">
           <div className="col-md-6 col-md-offset-3 section-title">

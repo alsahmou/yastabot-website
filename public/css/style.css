@@ -150,25 +150,57 @@ hr {
 .section-title p {
 	font-size: 18px;
 }
-.btn-custom {
+.btn-custom1 {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	padding: 14px 34px;
+	background-color: #f202c9;
+	background-image: linear-gradient(to right, #f202c9 0%, #6372ff 100%);
+	padding: 15px 0px;
 	letter-spacing: 1px;
 	margin: 0;
+	margin-bottom: 10px;
 	font-size: 15px;
 	font-weight: 500;
-	border-radius: 25px;
+	border-radius: 10px;
 	transition: all 0.5s linear;
 	border: 0;
+	width: 240px;
+
 }
-.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+.btn-custom2 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: none;
+	/* color: #fff; */
+	background-color: #0d3c5c;
+	/* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+	padding: 15px 0px;
+	letter-spacing: 1px;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 11px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 500;
+	border-radius: 10px;
+	transition: all 0.5s linear;
+	border: 2px solid white;
+	border-color: #fff;
+	color: #fff;
+	width: 115px;
+	text-align: center;
+
+}
+.btn-custom1:hover, .btn-custom1:focus, .btn-custom1.focus, .btn-custom1:active, .btn-custom1.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	background-color: #f202c9;
+}
+.btn-custom2:hover, .btn-custom2:focus, .btn-custom2.focus, .btn-custom2:active, .btn-custom2.active {
+	color: #fff;
+	background-image: none;
+	border: 2px;
+	border: 2px solid white;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -180,22 +212,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* Header Section */
-.intro {
-	display: table;
+/* Introduction Section */
+#intro {
+	display: flex;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	background: linear-gradient(to bottom, #051f32 0%, #0e4164 100%);
 }
-.intro .overlay {
+#intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
-.intro h1 {
+#intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	font-size: 82px;
@@ -204,22 +231,52 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 0;
 	margin-bottom: 10px;
 }
-.intro h1 span {
+#intro h1 span {
 	font-weight: 800;
 	color: #5ca9fb;
 }
-.intro p {
+
+#into .type-writer-container {
+	display: flex;
+	text-align: center;
+}
+#intro p {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 30px;
 	margin: 0 auto;
 	margin-bottom: 60px;
+	text-align: center;
+}
+#intro .type-writer {
+	text-align: center;
+	color: #fff;
+  	font-family: monospace;
+  	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid white; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	letter-spacing: .15em; /* Adjust as needed */
+  	animation: 
+    	typing 3.5s steps(30, end),
+    	blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  	from { width: 0 }
+  	to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  	from, to { border-color: transparent }
+  	50% { border-color: white }
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
-	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 20px;
 }
 /* In Action Section */
 #in-action {
