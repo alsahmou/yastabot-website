@@ -6,10 +6,13 @@ export class Header extends Component {
       <header id="header">
         <div id="intro">
             <div className="container">
-              <div className="row intro-text">
+              <div className="row intro-text text-center">
                 <div className="type-writer-container">
                   <p className="type-writer">/remind me in 20 minutes to workout</p>
                 </div>
+              </div>
+              <div className="row text-center">
+                <p className="type-writer">/remind me in 20 minutes to workout</p>
               </div>
               <div className="row text-center">
                 <p>Yastabot uses the latest AI and NLP technlogoy to make it easy for you to set reminders</p>

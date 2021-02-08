@@ -5,27 +5,24 @@ export class Technology extends Component {
     return (
       <div id="technology" className="text-center">
         <div className="container">
-          <div className="section-title">
-            <h2>Our Technology</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
+          {/* <div className="row">
+            <div className="col-md-8 section-title text-center">
+              <h3>Our sophisticated NLP algorithm uses the latest state of the art 
+                technologies to set reminders with barely any effort from you.</h3>
+                <h2>Yastabot does the heavy lifting for you</h2>
+            </div>
+          </div> */}
+          <div className="row">
+            <div><img src="img/machine.png"></img></div>
           </div>
           <div className="row">
-            {this.props.data
-              ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-4">
-                    {" "}
-                    <i className={d.icon}></i>
-                    <div className="service-desc">
-                      <h3>{d.name}</h3>
-                      <p>{d.text}</p>
-                    </div>
-                  </div>
-                ))
-              : "loading"}
+            <h3>Our sophisticated NLP algorithm uses the latest state of the art 
+                technologies to set reminders with barely any effort from you.</h3>
           </div>
+          <div className="row">
+            <h2>Yastabot does the heavy lifting for you</h2>
+          </div>
+          
         </div>
       </div>
     );

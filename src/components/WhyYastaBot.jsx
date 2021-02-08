@@ -5,12 +5,12 @@ export class WhyYastabot extends Component {
     return (
       <div id="why-yastabot" className="text-center">
         <div className="container">
-          <div className="row">
-          <div className="col-md-6 col-md-offset-3 section-title">
+          {/* <div className="row">
+            <div className="col-md-6 col-md-offset-4 section-title">
               <h2>Why Yastabot?</h2>
               <h4>Because setting reminders should be easy.</h4>
             </div>
-          </div>
+          </div> */}
           {/* <div>
             <div className="row">
               <div className="col-md-6"><img src="img/our-bot.png"></img></div>
@@ -21,6 +21,12 @@ export class WhyYastabot extends Component {
               <div className="col-md-6 text-center"><h3>Other apps</h3></div>
             </div>
           </div> */}
+          <div className="row">
+            <h2>Why Yastabot?</h2>
+          </div>
+          <div className="row">
+            <h4>Because setting reminders should be easy.</h4>
+          </div>
           <div className="row">
             <div className="row">
               <div className="col-md-6"><img src="img/our-bot.png"></img><h3>Our bot</h3></div>
