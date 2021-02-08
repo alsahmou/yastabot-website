@@ -18,10 +18,26 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
+            {/* <a className="navbar-brand page-scroll" href="#page-top">
+            <img src="img/logo.png" alt="YastaBot Logo"></img>
               YastaBot for Telegram
+            </a>{" "} */}
+            <a href="#page-top">
+              <img src="img/logo.png" alt="YastaBot Logo"></img>
+              <a className="navbar-brand page-scroll">YastaBot for Telegram</a>
             </a>{" "}
           </div>
+
+          {/* <a href="#page-top">
+              <div className="row"></div>
+                <div className="col-xs-12 col-md-2">
+                  <img src="img/logo.png" alt="YastaBot Logo"></img>
+                </div>
+              <div className="col-xs-12 col-md-10">
+                <a className="navbar-brand page-scroll">YastaBot for Telegram</a>
+              </div>
+              
+            </a>{" "} */}
 
           <div
             className="collapse navbar-collapse"

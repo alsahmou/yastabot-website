@@ -3,30 +3,33 @@ import React, { Component } from 'react'
 export class WhyYastabot extends Component {
   render() {
     return (
-        <div id="why-yastabot">
+        <div id="why-yastabot" className="text-center">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
-            <div className="col-xs-12 col-md-6">
-              <div className="why-yastabot-text">
-                <h2>Why Yastabot Us</h2>
-                <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
-                <h3>Why Choose Us?</h3>
-                <div className="list-style">
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
-                      {this.props.data ? this.props.data.Why.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
-                    </ul>
-                  </div>
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
-                    {this.props.data ? this.props.data.Why2.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
+          <div className="col-md-6 col-md-offset-3 section-title">
+              <h2>Why Yastabot?</h2>
+              <h4>Because setting reminders should be easy.</h4>
             </div>
+          </div>
+          {/* <div>
+            <div className="row">
+              <div className="col-md-6"><img src="img/our-bot.png"></img></div>
+              <div className="col-md-6"><img src="img/our-bot.png"></img></div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 text-center"><h3>Our bot</h3></div>
+              <div className="col-md-6 text-center"><h3>Other apps</h3></div>
+            </div>
+          </div> */}
+          <div className="row">
+            <div className="row">
+              <div className="col-md-6"><img src="img/our-bot.png"></img><h3>Our bot</h3></div>
+              <div className="col-md-6"><img src="img/our-bot.png"></img><h3>Other apps</h3></div>
+            </div>
+            {/* <div className="row">
+              <div className="col-md-6 text-center"><h3>Our bot</h3></div>
+              <div className="col-md-6 text-center"><h3>Other apps</h3></div>
+            </div> */}
           </div>
         </div>
       </div>

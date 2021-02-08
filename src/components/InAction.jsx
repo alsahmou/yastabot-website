@@ -5,10 +5,11 @@ export class InAction extends Component {
     return (
       <div id="in-action" className="text-center">
         <div className="container">
-          <div className="col-md-10 col-md-offset-1 section-title">
-            <h2>See it in Action</h2>
+          <div className="col-md-6 col-md-offset-3 section-title">
+            <h2>See how easy it is to set reminders!</h2>
           </div>
-          <div className="row">
+          <img src="img/in-action.png"></img>
+          {/* <div className="row">
             {this.props.data
               ? this.props.data.map((d,i) => (
                   <div  key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
@@ -19,7 +20,7 @@ export class InAction extends Component {
                   </div>
                 ))
               : "Loading..."}
-          </div>
+          </div> */}
         </div>
       </div>
     );

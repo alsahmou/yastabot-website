@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navigation from './components/navigation';
+import Navigation from './components/Navigation';
 import Header from './components/header';
 import InAction from './components/InAction';
 import WhyYastaBot from './components/WhyYastaBot';
