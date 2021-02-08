@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
 import Header from './components/header';
-import Features from './components/features';
-import About from './components/about';
-import Services from './components/services';
-import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Team from './components/Team';
+import InAction from './components/InAction';
+import WhyYastaBot from './components/WhyYastaBot';
+import Technology from './components/Technology';
+import Features from './components/Features';
+import Security from './components/Security';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 
@@ -27,13 +26,12 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
-        <Features data={this.state.landingPageData.Features} />
-        <About data={this.state.landingPageData.About} />
-        <Services data={this.state.landingPageData.Services} />
-        <Gallery />
-        <Testimonials data={this.state.landingPageData.Testimonials} />
-        <Team data={this.state.landingPageData.Team} />
-        <Contact data={this.state.landingPageData.Contact} />
+        <InAction data={this.state.landingPageData.InAction} />
+        <WhyYastaBot data={this.state.landingPageData.WhyYastaBot} />
+        <Technology data={this.state.landingPageData.Technology} />
+        <Features />
+        <Security data={this.state.landingPageData.Security} />
+        {/* <Contact data={this.state.landingPageData.Contact} /> */}
       </div>
     )
   }

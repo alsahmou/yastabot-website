@@ -70,7 +70,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #052134;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
@@ -78,13 +78,13 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #333;
-	text-transform: uppercase;
+	color: #fff;
+	text-transform: none;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	color: #555;
+	text-transform: none;
+	color: #fff;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -98,7 +98,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #fff 0%, #0e4164 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +115,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #fff 0%, #0e4164 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -222,12 +222,12 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
-/* Features Section */
-#features {
+/* In Action Section */
+#in-action {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#features i.fa {
+#in-action i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
@@ -239,20 +239,20 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-/* About Section */
-#about {
+/* Why Yastabot Section */
+#why-yastabot {
 	padding: 100px 0;
 }
-#about h3 {
+#why-yastabot h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#about h2 {
+#why-yastabot h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-#about h2::after {
+#why-yastabot h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -261,13 +261,13 @@ header .intro-text {
 	bottom: 0;
 	left: 0;
 }
-#about .about-text li {
+#why-yastabot .why-yastabot-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 }
-#about .about-text li:before {
+#why-yastabot .why-yastabot-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
@@ -275,30 +275,30 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
-#about img {
+#why-yastabot img {
 	width: 520px;
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
-#about p {
+#why-yastabot p {
 	line-height: 24px;
 	margin: 30px 0;
 }
-/* Services Section */
-#services {
+/* Technology Section */
+#technology {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: #fff;
 }
-#services .service-desc {
+#technology .service-desc {
 	margin: 10px 10px 20px;
 }
-#services h2 {
+#technology h2 {
 	color: #fff;
 }
-#services .section-title h2::after {
+#technology .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255,255,255,.3);
@@ -308,7 +308,7 @@ header .intro-text {
 	margin-left: -30px;
 	left: 50%;
 }
-#services i.fa {
+#technology i.fa {
 	font-size: 42px;
 	width: 120px;
 	height: 120px;
@@ -318,26 +318,26 @@ header .intro-text {
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-#services h3 {
+#technology h3 {
 	font-weight: 500;
 	padding: 5px 0;
 	color: #fff;
 }
-#services p {
+#technology p {
 	color: rgba(255,255,255,.75);
 }
-#services .service-desc {
+#technology .service-desc {
 	margin-bottom: 40px;
 }
-/* Portfolio Section */
-#portfolio {
+/* Features Section */
+#features {
 	padding: 100px 0;
 }
-.portfolio-item {
+.features-item {
 	margin: 1px -15px 0 -14px;
 	padding: 0;
 }
-.portfolio-item .hover-bg {
+.features-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 	margin: 0;
@@ -374,62 +374,44 @@ header .intro-text {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
+/* Security Section */
+#security {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#testimonials i {
+#security i {
 	color: #e6e6e6;
 	font-size: 32px;
 	margin-bottom: 20px;
 }
-.testimonial {
+.security {
 	position: relative;
 	padding: 20px;
 }
-.testimonial-image {
+.security-image {
 	float: left;
 	margin-right: 15px;
 }
-.testimonial-image, .testimonial-image img {
+.security-image, .security-image img {
 	display: block;
 	width: 64px;
 	height: 64px;
 	border-radius: 50%;
 }
-.testimonial-content {
+.security-content {
 	position: relative;
 	overflow: hidden;
 }
-.testimonial-content p {
+.security-content p {
 	margin-bottom: 0;
 	font-size: 14px;
 	font-style: italic;
 }
-.testimonial-meta {
+.security-meta {
 	margin-top: 10px;
 	font-size: 15px;
 	font-weight: 600;
 	color: #666;
-}
-/* Team Section */
-#team {
-	padding: 100px 0;
-}
-#team h4 {
-	margin: 5px 0;
-}
-#team .team-img {
-	width: 240px;
-}
-#team .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#team .thumbnail .caption {
-	padding: 10px 0 0 0;
-	color: #888;
 }
 /* Contact Section */
 #contact {

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-export class Services extends Component {
+export class Technology extends Component {
   render() {
     return (
-      <div id="services" className="text-center">
+      <div id="technology" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
+            <h2>Our Technology</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
               dapibus leonec.
@@ -32,4 +32,4 @@ export class Services extends Component {
   }
 }
 
-export default Services;
+export default Technology;
