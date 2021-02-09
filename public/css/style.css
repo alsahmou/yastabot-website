@@ -655,7 +655,7 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: linear-gradient(to bottom, #051f32 0%, #0e4164 100%);;
 	padding: 30px 0;
 }
 #footer p {
@@ -667,6 +667,9 @@ color: #777;
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
+}
+#footer h3 {
+	color: white;
 }
 
 @media (max-width: 768px) {
