@@ -421,6 +421,29 @@ header .intro-text {
 	position: relative;
 	margin: 0;
 }
+#features h2 {
+	position: relative;
+	margin-bottom: 150px;
+	padding-bottom: 15px;
+	color: black;
+	align-self: center;
+	text-align: center;
+	font-size: 50px;
+}
+#features h3 {
+	position: relative;
+	font-size: 26px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	color: black;
+}
+
+#features img {
+	width: 80px;
+	vertical-align: bottom;
+	display: table-cell;
+}
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -456,12 +479,24 @@ header .intro-text {
 /* Security Section */
 #security {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: linear-gradient(to bottom, #051f32 0%, #0e4164 100%);
 }
 #security i {
 	color: #e6e6e6;
 	font-size: 32px;
 	margin-bottom: 20px;
+}
+#security h2 {
+	color: white;
+	margin-bottom: 10px;
+}
+#security h3 {
+	color: white;
+	margin-top: 10px;
+}
+#security img {
+	width: 150px;
+	margin-bottom: 50px;
 }
 .security {
 	position: relative;

@@ -5,26 +5,35 @@ export class Security extends Component {
     return (
       <div id="security">
         <div className="container">
-          <div className="section-title text-center">
-            <h2>Security</h2>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="row">
+                <h2>Security</h2>
+              </div>
+              <div className="row">
+                <h3>Yastabot was designed and implemented with multiple layers of protection with your privacy in mind.
+                  Your data is encrypted both in transport and in storage with the latest AWS technologies.</h3>
+              </div>
+            </div>  
+            <div className="col-lg-4 col-lg-offset-2">
+              <img src="img/security.png"></img>
+            </div>
           </div>
           <div className="row">
-            {this.props.data
-              ? this.props.data.map((d, i) => (
-                  <div key={`${d.name}-${i}`} className="col-md-4">
-                    <div className="security">
-                      <div className="security-image">
-                        {" "}
-                        <img src={d.img} alt="" />{" "}
-                      </div>
-                      <div className="security-content">
-                        <p>"{d.text}"</p>
-                        <div className="security-meta"> - {d.name} </div>
-                      </div>
-                    </div>
-                  </div>
-                ))
-              : "loading"}
+            <div className="col-lg-2">
+            </div>
+            <div className="col-lg-4">
+              <img src="img/locked-padlock.png"></img>
+            </div>
+            <div className="col-lg-6">
+              <div className="row">
+                <h2>Privacy</h2>
+              </div>
+              <div className="row">
+                <h3>We believe that you are the owner of your data. We will never sell your data and we’re committed 
+                  to protecting you and your information</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
