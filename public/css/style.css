@@ -290,6 +290,7 @@ header .intro-text {
 #in-action {
 	padding: 100px 0;
 	background: #fff;
+	margin: 20px;
 }
 #in-action i.fa {
 	font-size: 38px;
