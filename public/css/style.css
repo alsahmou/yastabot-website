@@ -347,10 +347,15 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
+#why-yastabot .img-container {
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
 #why-yastabot img {
-	width: 520px;
+	width: auto;
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
