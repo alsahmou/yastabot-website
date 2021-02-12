@@ -1,12 +1,15 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "BioCare Pharma",
+        "paragraph": "We are the leading blood plasma products supplier in Egypt."
 
     },
-    "WhyYastaBot": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "QualitySafety": {
+        "paragraph1": "As a supplier for BPL products, our products are developed by pharmaceutical scientists, using the best available knowledge and technologies. The product quality is reviewed by national regulatory agencies before BioCare Pharma is granted marketing authorization. Throughout the lifetime of the product, performance quality is reviewed against contemporaneous knowledge and understanding, allowing ongoing enhancements in the light of new understanding, or changes in the clinical environment. Performance is also monitored by national regulatory agencies, which undertake periodic inspections of BPL's manufacturing facilities and quality systems. Such independent inspections provide BPL with additional benchmarking for their process design and ongoing quality programs.",
+        "paragraph2": "BPL's attention to quality starts once a donor arrives at their collection centers. Initial checks are done to ensure the donor's safety and plasma quality. Plasma is collected by the process of plasmapheresis, where plasma is collected into a sterile container and frozen, while the separated blood cells are returned to the donor.",
+        "paragraph3": "Each donation is tested for potential blood-borne pathogens and any donation that tests positive is excluded from the manufacturing process. Once the plasma donations arrive at the manufacturing facility. Every frozen plasma donation is quarantined for at least 60 days while all checks are completed. And throughout the manufacturing process, all fractionated plasma pools are tested for a range of potential viruses using Nucleic Acid Amplification Tests (NAT) and other composition, purity, function, and safety specifications.",
+        "paragraph4": "BioCare Pharma's focus on quality does not end when the product is dispatched to our customers. Throughout the product's life-cycle, BioCare Pharma can trace any vial of product not only from individual plasma donors to the patient but also from the patient back to the plasma donor. We use an industry-recognized pharmacovigilance system of post-marketing surveillance for any adverse reactions reported by healthcare professionals or patients who use our products, regardless of whether they are product-related.",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -20,97 +23,101 @@
             "Lorem ipsum dolor"
         ]
     },
-    "Technology": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "Features": [{
+            "icon": "fa fa-bell-o",
+            "name": "Set Recurring Reminders",
+            "text": "\"remind me everyday at 9pm to take my medication\""
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-refresh",
+            "name": "Set Simple Reminders",
+            "text": "\"remind me in 20m to check the oven.\""
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-users",
+            "name": "Use it in a Group",
+            "text": "your roommates will never forget to pay rent again."
         }
-
-
     ],
-    "Security": [{
-            "img": "img/security/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+    "Clients": [{
+            "img": "img/clients/01.png"
         },
         {
-            "img": "img/security/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "img": "img/clients/02.png"
         },
         {
-            "img": "img/security/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "img": "img/clients/03.jpg"
         },
         {
-            "img": "img/security/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "img": "img/clients/04.jpg"
         },
         {
-            "img": "img/security/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "img": "img/clients/05.jpg"
         },
         {
-            "img": "img/security/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "img": "img/clients/06.png"
+        },
+        {
+            "img": "img/clients/07.png"
+        },
+        {
+            "img": "img/clients/08.png"
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
+        "address": "2110, El Akram Ibn Aby Al Akram, Mearag City, Cairo, Egypt",
+        "phone": "+20 100 004 0992",
+        "email": "ehab_salama80@hotmail.com",
+        "facebook": "https://www.facebook.com/Biocare-Pharma-Group-268803763627370/",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "InAction": [{
+    "Abouts": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
+            "title": "1999",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
+            "title": "2001",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
+            "title": "2005",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
+            "title": "2020",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
-    ]
+    ],
+    "About": {
+        "history": [{
+            "icon": "fa fa-comments-o",
+            "title": "1999",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "2001",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "2005",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "2020",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+        ],
+        "about": "Biocare Pharma Group was founded by Dr. Ehab Salama in 2004, with a strong focus on supplying blood plasma products in Egypt. Today, with over 30 employees, the company has become one of the leading distributors for Bio Products Laboratory located in the United Kingdom.",
+        "mission": "Our mission is to provide a continuous and competitive supply of high-quality blood plasma products to a growing global market through the latest research, technology, and manufacturing methods and by ensuring on-going and responsive support to health professionals throughout the world.",
+        "ceoMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    }
 }

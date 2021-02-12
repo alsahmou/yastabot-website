@@ -30,7 +30,7 @@ export class App extends Component {
         <InAction data={this.state.landingPageData.InAction} />
         <WhyYastaBot data={this.state.landingPageData.WhyYastaBot} />
         <Technology data={this.state.landingPageData.Technology} />
-        <Features />
+        <Features data={this.state.landingPageData.Features} />
         <Security data={this.state.landingPageData.Security} />
         {/* <Contact data={this.state.landingPageData.Contact} /> */}
         <Footer data={this.state.landingPageData.Footer} />

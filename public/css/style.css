@@ -394,6 +394,7 @@ header .intro-text {
 	font-weight: 500;
 	padding: 5px 0;
 	color: black;
+	margin: 20px;
 }
 #technology p {
 	color:black;
@@ -403,13 +404,27 @@ header .intro-text {
 #technology .service-desc {
 	margin-bottom: 40px;
 }
+#technology .img-container {
+	height: 400px;
+	padding-right: 30px;
+	display: flex;
+	justify-content: center;
+}
 #technology img {
-	width: 720px;
+	display: block;
+	width: auto;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+/* #technology img {
+	width: auto;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	border-right: 0;
+	margin-right: 20px;
+	border-right: 10px;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
-}
+} */
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -425,7 +440,7 @@ header .intro-text {
 }
 #features h2 {
 	position: relative;
-	margin-bottom: 150px;
+	margin-bottom: 80px;
 	padding-bottom: 15px;
 	color: black;
 	align-self: center;
@@ -444,6 +459,17 @@ header .intro-text {
 	width: 80px;
 	vertical-align: bottom;
 	display: table-cell;
+}
+
+#features i.fa {
+	font-size: 42px;
+	width: 120px;
+	height: 120px;
+	padding: 40px 0;
+	background: linear-gradient(to right, #051f32 0%, #0e4164 100%);
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 
 .hover-bg .hover-text {

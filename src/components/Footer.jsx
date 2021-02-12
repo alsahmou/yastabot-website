@@ -10,7 +10,7 @@ export class Footer extends Component {
           </div>
           <div className="row">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-custom1 btn-lg">Get started</button>
+              <button className="btn btn-custom1 btn-lg"> <i className="fa fa-send"></i> Get started</button>
             </a>
           </div>
           <div id="">
