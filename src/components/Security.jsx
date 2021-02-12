@@ -15,26 +15,25 @@ export class Security extends Component {
                   Your data is encrypted both in transport and in storage with the latest AWS technologies.</h3>
               </div>
             </div>  
-            <div className="col-lg-4 col-lg-offset-2">
+            <div className="col-lg-6 text-center">
               <img src="img/security.png"></img>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-2">
-            </div>
-            <div className="col-lg-4">
-              <img src="img/locked-padlock.png"></img>
-            </div>
+            <div className="col-lg-6 text-center">
+              <div className="row">
+                <img src="img/locked-padlock.png"></img>
+              </div>
+            </div>  
             <div className="col-lg-6">
               <div className="row">
                 <h2>Privacy</h2>
               </div>
               <div className="row">
-                <h3>We believe that you are the owner of your data. We will never sell your data and we’re committed 
-                  to protecting you and your information</h3>
+                <h3>We believe that you are the owner of your data. We will never sell your data and we’re committed to protecting you and your information.</h3>
               </div>
+            </div>  
             </div>
-          </div>
         </div>
       </div>
     );

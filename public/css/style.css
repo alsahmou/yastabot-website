@@ -6,6 +6,8 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	/* padding-left: 50px;
+	padding-right: 50px; */
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
@@ -72,7 +74,7 @@ hr {
 #menu.navbar-default {
 	background-color: #052134;
 	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+	box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
@@ -489,10 +491,13 @@ header .intro-text {
 #security h2 {
 	color: white;
 	margin-bottom: 10px;
+	margin-left: 15px;
 }
 #security h3 {
 	color: white;
-	margin-top: 10px;
+	text-align: left;
+	/* margin-top: 10px; */
+	margin: 15px;
 }
 #security img {
 	width: 150px;
