@@ -75,9 +75,11 @@ export class Header extends Component {
               <p>Yastabot uses the latest AI and NLP technlogoy to make it easy for you to set reminders</p>
             </div>
             <div className="row text-center">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <button className="btn btn-custom1 btn-lg"><i className="fa fa-send"></i> Get started</button>
-              </a>
+              <div className="container">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-custom1 btn-lg"><i className="fa fa-send"></i> Get started</button>
+                </a>
+              </div>
             </div>
             <div className="row text-center">
               <a href="https://google.com" target="_blank" rel="noopener noreferrer">

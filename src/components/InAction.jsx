@@ -39,7 +39,7 @@ export class InAction extends Component {
     return (
       <div id="in-action" className="text-center">
         <div className="container">
-          <div className="row">
+          <div className="row img-container">
             <h2>See how easy it is to set reminders!</h2>
           </div>
           <div className="row img-container">
