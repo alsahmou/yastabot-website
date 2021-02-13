@@ -22,10 +22,13 @@ export class Navigation extends Component {
             <img src="img/logo.png" alt="YastaBot Logo"></img>
               YastaBot for Telegram
             </a>{" "} */}
-            <a href="#page-top">
+            {/* <a href="#page-top">
               <a className="navbar-brand page-scroll">YastaBot for Telegram</a>
               <img src="img/logo.png" alt="YastaBot Logo"></img>
-            </a>{" "}
+            </a>{" "} */}
+            <a href="#page-top" className="logo">
+              <img src="img/logo.png"></img> YastaBot for Telegram
+            </a>
           </div>
 
           {/* <a href="#page-top">
