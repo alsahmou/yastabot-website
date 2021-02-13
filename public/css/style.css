@@ -248,12 +248,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #intro p {
 	color: #fff;
 	font-size: 22px;
-	font-weight: 300;
 	line-height: 30px;
-	margin: 0 auto;
+	margin: 10;
 	margin-bottom: 60px;
 	text-align: center;
-	width: max-content;
 }
 #intro .type-writer {
 	text-align: center;
@@ -268,6 +266,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     	typing 3.5s steps(30, end),
 		blink-caret .5s step-end infinite;
 	width: max-content;
+	display: inline-flex;
 
 }
 
