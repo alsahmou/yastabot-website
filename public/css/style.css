@@ -217,9 +217,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Introduction Section */
 #intro {
-	display: flex;
-	width: 100%;
-	padding: 0;
+	padding: 10;
 	background: linear-gradient(to bottom, #051f32 0%, #0e4164 100%);
 }
 #intro .overlay {
@@ -239,11 +237,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #5ca9fb;
 }
 
-#intro .type-writer-container {
-	display: flex;
-	text-align: center;
+/* #intro .type-writer-container {
 	width: max-content;
 	margin: auto;
+	position: relative;
+} */
+#intro .type-writer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
 }
 #intro p {
 	color: #fff;
@@ -267,7 +270,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		blink-caret .5s step-end infinite;
 	width: max-content;
 	display: inline-flex;
-
 }
 
 /* The typing effect */

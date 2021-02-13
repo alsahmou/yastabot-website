@@ -64,11 +64,28 @@ export class Header extends Component {
       <header id="header">
         <div id="intro">
           <div className="container">
-            <div className="type-writer-container">
-
-            <div className="row intro-text">
-              <p className="type-writer">/remind me in 20 minutes to workout</p>
+            <div className="row">
+              <div className="type-writer-container">
+                <div className="row intro-text">
+                  <p className="type-writer">/remind me in 5m to eat</p>
+                </div>
+              </div>
             </div>
+            <div className="row text-center">
+              <p>Yastabot uses the latest AI and NLP technlogoy to make it easy for you to set reminders</p>
+            </div>
+            <div className="row text-center">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-custom1 btn-lg"><i className="fa fa-send"></i> Get started</button>
+              </a>
+            </div>
+            <div className="row text-center">
+              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-custom2">Something</button>
+              </a>
+              <a href="https://telegram.com" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-custom2">Join our Channel</button>
+              </a>
             </div>
           </div>
         </div>
