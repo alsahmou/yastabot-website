@@ -228,6 +228,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 10;
 	background: linear-gradient(to bottom, #051f32 0%, #0e4164 100%);
 }
+
 #intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
