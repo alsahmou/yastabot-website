@@ -1,27 +1,11 @@
 {
     "Header": {
-
         "title": "BioCare Pharma",
         "paragraph": "We are the leading blood plasma products supplier in Egypt."
-
     },
-    "QualitySafety": {
-        "paragraph1": "As a supplier for BPL products, our products are developed by pharmaceutical scientists, using the best available knowledge and technologies. The product quality is reviewed by national regulatory agencies before BioCare Pharma is granted marketing authorization. Throughout the lifetime of the product, performance quality is reviewed against contemporaneous knowledge and understanding, allowing ongoing enhancements in the light of new understanding, or changes in the clinical environment. Performance is also monitored by national regulatory agencies, which undertake periodic inspections of BPL's manufacturing facilities and quality systems. Such independent inspections provide BPL with additional benchmarking for their process design and ongoing quality programs.",
-        "paragraph2": "BPL's attention to quality starts once a donor arrives at their collection centers. Initial checks are done to ensure the donor's safety and plasma quality. Plasma is collected by the process of plasmapheresis, where plasma is collected into a sterile container and frozen, while the separated blood cells are returned to the donor.",
-        "paragraph3": "Each donation is tested for potential blood-borne pathogens and any donation that tests positive is excluded from the manufacturing process. Once the plasma donations arrive at the manufacturing facility. Every frozen plasma donation is quarantined for at least 60 days while all checks are completed. And throughout the manufacturing process, all fractionated plasma pools are tested for a range of potential viruses using Nucleic Acid Amplification Tests (NAT) and other composition, purity, function, and safety specifications.",
-        "paragraph4": "BioCare Pharma's focus on quality does not end when the product is dispatched to our customers. Throughout the product's life-cycle, BioCare Pharma can trace any vial of product not only from individual plasma donors to the patient but also from the patient back to the plasma donor. We use an industry-recognized pharmacovigilance system of post-marketing surveillance for any adverse reactions reported by healthcare professionals or patients who use our products, regardless of whether they are product-related.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+    "InAction": {
+        "title": "See how easy it is to set reminders!",
+        "img": "img/in-action.png"
     },
     "Features": [{
             "icon": "fa fa-bell-o",
