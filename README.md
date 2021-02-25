@@ -6,7 +6,8 @@ Run the website using ```npm start```
 ## Production Build
 Build the production build using ```npm run-script build``` and test it locally using ```serve build```
 ## Server Deployment 
-Copy the build folder to the server under var/www/yastabot-website directory by using ```scp -r ~/local_dir buba@solutionbanks.com:/var/www/yastabot-website``` comand 
+Copy the build folder to the server under var/www/yastabot-website directory by using ```scp -r ~/local_dir buba@solutionbanks.com:/var/www/yastabot-website``` command
+ 
 Create a “.htaccess” file in yastabot-website directory and add this snippet :
 ```
 Options -MultiViews
