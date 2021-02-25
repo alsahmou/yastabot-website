@@ -6,20 +6,20 @@ export class WhyYastabot extends Component {
       <div id="why-yastabot" className="text-center">
         <div className="container">
           <div className="row">
-            <h2>Why Yastabot?</h2>
+            <h2>{this.props.data ? this.props.data.title : "Loading"}</h2>
           </div>
           <div className="row">
-            <h4>Because setting reminders should be easy.</h4>
+            <h4>{this.props.data ? this.props.data.text1 : "Loading"}</h4>
           </div>
           <div className="row img-container">
             <div className="row">
               <div className="col-md-6">
-                <img src="img/our-bot.png"></img>
-                <h3>Our bot</h3>
+                <img src={this.props.data ? this.props.data.img1 : "Loading"}></img>
+                <h3>{this.props.data ? this.props.data.img1caption : "Loading"}</h3>
               </div>
               <div className="col-md-6">
-                <img src="img/our-bot.png"></img>
-                <h3>Other apps</h3>
+                <img src={this.props.data ? this.props.data.img2 : "Loading"}></img>
+                <h3>{this.props.data ? this.props.data.img2caption : "Loading"}</h3>
               </div>
             </div>
           </div>
@@ -31,24 +31,3 @@ export class WhyYastabot extends Component {
 
 export default WhyYastabot
 
-/* <div className="row">
-            <div className="col-md-6 col-md-offset-4 section-title">
-              <h2>Why Yastabot?</h2>
-              <h4>Because setting reminders should be easy.</h4>
-            </div>
-          </div> */
-          /* <div>
-            <div className="row">
-              <div className="col-md-6"><img src="img/our-bot.png"></img></div>
-              <div className="col-md-6"><img src="img/our-bot.png"></img></div>
-            </div>
-            <div className="row">
-              <div className="col-md-6 text-center"><h3>Our bot</h3></div>
-              <div className="col-md-6 text-center"><h3>Other apps</h3></div>
-            </div>
-          </div> */
-
-          /* <div className="row">
-              <div className="col-md-6 text-center"><h3>Our bot</h3></div>
-              <div className="col-md-6 text-center"><h3>Other apps</h3></div>
-            </div> */

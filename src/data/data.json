@@ -10,22 +10,14 @@
         "title": "See how easy it is to set reminders!",
         "img": "img/in-action.png"
     },
-    "Features": [{
-            "icon": "fa fa-bell-o",
-            "name": "Set Recurring Reminders",
-            "text": "\"remind me everyday at 9pm to take my medication\""
-        },
-        {
-            "icon": "fa fa-refresh",
-            "name": "Set Simple Reminders",
-            "text": "\"remind me in 20m to check the oven.\""
-        },
-        {
-            "icon": "fa fa-users",
-            "name": "Use it in a Group",
-            "text": "your roommates will never forget to pay rent again."
-        }
-    ],
+    "WhyYastaBot": {
+        "title": "Why YastaBot?",
+        "text1": "Because setting reminders should be easy.",
+        "img1": "img/our-bot.png",
+        "img2": "img/our-bot.png",
+        "img1caption": "Our bot",
+        "img2caption": "Other apps"
+    },
     "Clients": [{
             "img": "img/clients/01.png"
         },
