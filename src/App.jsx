@@ -6,7 +6,6 @@ import WhyYastaBot from './components/WhyYastaBot';
 import Technology from './components/Technology';
 import Features from './components/Features';
 import Security from './components/Security';
-import Contact from './components/contact';
 import Footer from './components/Footer';
 import JsonData from './data/data.json';
 
@@ -32,7 +31,6 @@ export class App extends Component {
         <Technology data={this.state.landingPageData.Technology} />
         <Features data={this.state.landingPageData.Features} />
         <Security data={this.state.landingPageData.Security} />
-        {/* <Contact data={this.state.landingPageData.Contact} /> */}
         <Footer data={this.state.landingPageData.Footer} />
       </div>
     )

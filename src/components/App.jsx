@@ -6,7 +6,6 @@ import WhyYastaBot from './WhyYastaBot';
 import Technology from './Technology';
 import Features from './Features';
 import Security from './Security';
-import Contact from './contact';
 import $ from 'jquery';
 
 export class App extends Component {
@@ -42,7 +41,6 @@ export class App extends Component {
         <Technology  data={this.state.resumeData.Technology}/>
         <Features />
         <Security  data={this.state.resumeData.Security}/>
-        {/* <Contact  data={this.state.resumeData.Contact}/> */}
       </div>
     )
   }
