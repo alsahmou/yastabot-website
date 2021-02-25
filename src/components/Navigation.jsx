@@ -18,30 +18,10 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            {/* <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="img/logo.png" alt="YastaBot Logo"></img>
-              YastaBot for Telegram
-            </a>{" "} */}
-            {/* <a href="#page-top">
-              <a className="navbar-brand page-scroll">YastaBot for Telegram</a>
-              <img src="img/logo.png" alt="YastaBot Logo"></img>
-            </a>{" "} */}
             <a href="#page-top" className="logo">
               <img src="img/logo.png"></img> YastaBot for Telegram
             </a>
           </div>
-
-          {/* <a href="#page-top">
-              <div className="row"></div>
-                <div className="col-xs-12 col-md-2">
-                  <img src="img/logo.png" alt="YastaBot Logo"></img>
-                </div>
-              <div className="col-xs-12 col-md-10">
-                <a className="navbar-brand page-scroll">YastaBot for Telegram</a>
-              </div>
-              
-            </a>{" "} */}
-
           <div
             className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
@@ -72,11 +52,6 @@ export class Navigation extends Component {
                   Security
                 </a>
               </li>
-              {/* <li>
-                <a href="#contact" className="page-scroll">
-                  Contact
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>

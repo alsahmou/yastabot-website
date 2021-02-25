@@ -77,8 +77,6 @@ hr {
 	padding-top: 8px;
 	position: absolute;
 }
-
-
 #menu.navbar-default {
 	background-color: #052134;
 	border-color: rgba(231, 231, 231, 0);
@@ -182,9 +180,7 @@ hr {
 .btn-custom2 {
 	font-family: 'Raleway', sans-serif;
 	text-transform: none;
-	/* color: #fff; */
 	background-color: #0d3c5c;
-	/* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
 	padding: 15px 0px;
 	letter-spacing: 1px;
 	margin: 0;
