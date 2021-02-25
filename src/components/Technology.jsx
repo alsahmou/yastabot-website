@@ -6,14 +6,13 @@ export class Technology extends Component {
       <div id="technology" className="text-center">
         <div className="container">
           <div className="row img-container">
-              <img src="img/machine.png"></img>
+              <img src={this.props.data ? this.props.data.img : "Loading"}></img>
           </div>
           <div className="row">
-            <h3>Our sophisticated NLP algorithm uses the latest state of the art 
-                technologies to set reminders with barely any effort from you.</h3>
+            <h3>{this.props.data ? this.props.data.text1 : "Loading"}</h3>
           </div>
           <div className="row">
-            <h2>Yastabot does the heavy lifting for you</h2>
+            <h2>{this.props.data ? this.props.data.text2 : "Loading"}</h2>
           </div>
         </div>
       </div>
@@ -22,12 +21,3 @@ export class Technology extends Component {
 }
 
 export default Technology;
-
-
-{/* <div className="row">
-            <div className="col-md-8 section-title text-center">
-              <h3>Our sophisticated NLP algorithm uses the latest state of the art 
-                technologies to set reminders with barely any effort from you.</h3>
-                <h2>Yastabot does the heavy lifting for you</h2>
-            </div>
-          </div> */}

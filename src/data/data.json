@@ -18,30 +18,26 @@
         "img1caption": "Our bot",
         "img2caption": "Other apps"
     },
-    "Clients": [{
-            "img": "img/clients/01.png"
-        },
-        {
-            "img": "img/clients/02.png"
-        },
-        {
-            "img": "img/clients/03.jpg"
-        },
-        {
-            "img": "img/clients/04.jpg"
-        },
-        {
-            "img": "img/clients/05.jpg"
-        },
-        {
-            "img": "img/clients/06.png"
-        },
-        {
-            "img": "img/clients/07.png"
-        },
-        {
-            "img": "img/clients/08.png"
-        }
+    "Technology": {
+        "text1": "Our sophisticated NLP algorithm uses the latest state of the art technologies to set reminders with barely any effort from you.",
+        "img": "img/machine.png",
+        "text2": "Yastabot does the heavy lifting for you"
+    },
+    "Features": [{
+        "icon": "fa fa-bell-o",
+        "name": "Set Recurring Reminders",
+        "text": "\"remind me everyday at 9pm to take my medication\""
+    },
+    {
+        "icon": "fa fa-refresh",
+        "name": "Set Simple Reminders",
+        "text": "\"remind me in 20m to check the oven.\""
+    },
+    {
+        "icon": "fa fa-users",
+        "name": "Use it in a Group",
+        "text": "your roommates will never forget to pay rent again."
+    }
     ],
     "Contact": {
         "address": "2110, El Akram Ibn Aby Al Akram, Mearag City, Cairo, Egypt",
