@@ -39,60 +39,17 @@
         "text": "your roommates will never forget to pay rent again."
     }
     ],
-    "Contact": {
-        "address": "2110, El Akram Ibn Aby Al Akram, Mearag City, Cairo, Egypt",
-        "phone": "+20 100 004 0992",
-        "email": "ehab_salama80@hotmail.com",
-        "facebook": "https://www.facebook.com/Biocare-Pharma-Group-268803763627370/",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+    "Security": {
+        "title1": "Security",
+        "title2": "Privacy",
+        "paragraph1": "Yastabot was designed and implemented with multiple layers of protection with your privacy in mind. Your data is encrypted both in transport and in storage with the latest AWS technologies.",
+        "paragraph2": "We believe that you are the owner of your data. We will never sell your data and we’re committed to protecting you and your information.",
+        "img1": "img/security.png",
+        "img2": "img/locked-padlock.png"
     },
-    "Abouts": [{
-            "icon": "fa fa-comments-o",
-            "title": "1999",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "2001",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "2005",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "2020",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        }
-    ],
-    "About": {
-        "history": [{
-            "icon": "fa fa-comments-o",
-            "title": "1999",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "2001",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "2005",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "2020",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        }
-        ],
-        "about": "Biocare Pharma Group was founded by Dr. Ehab Salama in 2004, with a strong focus on supplying blood plasma products in Egypt. Today, with over 30 employees, the company has become one of the leading distributors for Bio Products Laboratory located in the United Kingdom.",
-        "mission": "Our mission is to provide a continuous and competitive supply of high-quality blood plasma products to a growing global market through the latest research, technology, and manufacturing methods and by ensuring on-going and responsive support to health professionals throughout the world.",
-        "ceoMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
+    "Footer": {
+        "text": "I'm interested, how do I get started?",
+        "footer1": "Icons made by Freepik from flaticon.com",
+        "footer2": "&copy; 2021 Yastabot"
     }
 }

@@ -431,14 +431,7 @@ header .intro-text {
 	margin-left: 20px;
 	margin-right: 10px;
 }
-/* #technology img {
-	width: auto;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	margin-right: 20px;
-	border-right: 10px;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
-} */
+
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -536,7 +529,6 @@ header .intro-text {
 #security h3 {
 	color: white;
 	text-align: left;
-	/* margin-top: 10px; */
 	margin: 15px;
 }
 #security img {

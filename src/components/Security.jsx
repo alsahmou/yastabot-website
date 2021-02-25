@@ -8,29 +8,28 @@ export class Security extends Component {
           <div className="row">
             <div className="col-lg-6">
               <div className="row">
-                <h2>Security</h2>
+                <h2>{this.props.data ? this.props.data.title1 : "Loading"}</h2>
               </div>
               <div className="row">
-                <h3>Yastabot was designed and implemented with multiple layers of protection with your privacy in mind.
-                  Your data is encrypted both in transport and in storage with the latest AWS technologies.</h3>
+                <h3>{this.props.data ? this.props.data.paragraph1 : "Loading"}</h3>
               </div>
             </div>  
             <div className="col-lg-6 text-center">
-              <img src="img/security.png"></img>
+              <img src={this.props.data ? this.props.data.img1 : "Loading"}></img>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 text-center">
               <div className="row">
-                <img src="img/locked-padlock.png"></img>
+                <img src={this.props.data ? this.props.data.img2 : "Loading"}></img>
               </div>
             </div>  
             <div className="col-lg-6">
               <div className="row">
-                <h2>Privacy</h2>
+                <h2>{this.props.data ? this.props.data.title2 : "Loading"}</h2>
               </div>
               <div className="row">
-                <h3>We believe that you are the owner of your data. We will never sell your data and we’re committed to protecting you and your information.</h3>
+                <h3>{this.props.data ? this.props.data.paragraph2 : "Loading"}</h3>
               </div>
             </div>  
             </div>
