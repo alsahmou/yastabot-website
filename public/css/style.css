@@ -219,7 +219,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* Introduction Section */
+
+/* Header Section */
 #intro {
 	padding: 10;
 	background: linear-gradient(to bottom, #051f32 0%, #0e4164 100%);
@@ -241,12 +242,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 800;
 	color: #5ca9fb;
 }
-
-/* #intro .type-writer-container {
-	width: max-content;
-	margin: auto;
-	position: relative;
-} */
 #intro .type-writer-container {
 	display: flex;
 	justify-content: center;
@@ -276,13 +271,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: max-content;
 	display: inline-flex;
 }
-
 /* The typing effect */
 @keyframes typing {
   	from { width: 0 }
   	to { width: 100% }
 }
-
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   	from, to { border-color: transparent }
@@ -293,6 +286,7 @@ header .intro-text {
 	padding-bottom: 20px;
 	text-align: center;
 }
+
 /* In Action Section */
 #in-action {
 	padding: 100px 0;

@@ -1,7 +1,10 @@
 {
     "Header": {
-        "title": "BioCare Pharma",
-        "paragraph": "We are the leading blood plasma products supplier in Egypt."
+        "typeWriter": "/remind me in 5m to eat",
+        "text1": "Yastabot uses the latest AI and NLP technlogoy to make it easy for you to set reminders",
+        "getStartedButton": "https://facebook.com",
+        "button2": "https://google.com",
+        "button3": "https://telegram.com"
     },
     "InAction": {
         "title": "See how easy it is to set reminders!",
