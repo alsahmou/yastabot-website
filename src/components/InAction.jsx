@@ -10,7 +10,7 @@ export class InAction extends Component {
             <h2>{this.props.data ? this.props.data.title : "Loading"}</h2>
           </div>
           <div className="row img-container">
-              <img src={this.props.data ? this.props.data.img : "Loading"}></img>
+              <img className ="inaction-img" src={this.props.data ? this.props.data.img : "Loading"}></img>
           </div>
         </div>
       </div>
