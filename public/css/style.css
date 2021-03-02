@@ -374,7 +374,7 @@ header .intro-text {
 
 /* In Action Section */
 #in-action {
-    padding: 100px 0;
+    padding: 0 0 100px 0;
     background: #fff;
     margin: 20px;
 }
