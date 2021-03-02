@@ -865,6 +865,10 @@ label {
     color: white;
 }
 
+.inaction-img {
+    max-width: 30%;
+}
+
 @media (max-width: 480px) {
     #about img {
         margin: 50px 0;
@@ -883,7 +887,7 @@ label {
     }
 
     .inaction-img {
-    	max-width: 50%;
+    	max-width: 10%;
     }
 }
 

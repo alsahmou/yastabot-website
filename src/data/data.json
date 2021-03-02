@@ -2,9 +2,8 @@
     "Header": {
         "typeWriter": "/remind me in 5m to eat",
         "text1": "Yastabot uses the latest AI and NLP technlogoy to make it easy for you to set reminders",
-        "getStartedButton": "https://facebook.com",
-        "button2": "https://google.com",
-        "button3": "https://telegram.com"
+        "getStartedButton": "https://t.me/yastabot",
+        "button2": "https://medium.com"
     },
     "InAction": {
         "title": "See how easy it is to set reminders!",

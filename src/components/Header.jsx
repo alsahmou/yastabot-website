@@ -14,7 +14,7 @@ export class Header extends Component {
               </div>
             </div>
             <div className="row text-center">
-              <p>{this.props.data ? this.props.data.text1 : "Loading"}</p>
+                <p>{this.props.data ? this.props.data.text1 : "Loading"}</p>
             </div>
             <div className="row text-center">
               <div className="container">
@@ -25,10 +25,7 @@ export class Header extends Component {
             </div>
             <div className="row text-center">
               <a href={this.props.data ? this.props.data.button2 : "Loading"} target="_blank" rel="noopener noreferrer">
-                <button className="btn btn-custom2">Something</button>
-              </a>
-              <a href={this.props.data ? this.props.data.button3 : "Loading"} target="_blank" rel="noopener noreferrer">
-                <button className="btn btn-custom2">Join our Channel</button>
+                <button className="btn btn-custom2">Medium Article</button>
               </a>
             </div>
           </div>
