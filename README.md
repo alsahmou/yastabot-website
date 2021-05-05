@@ -23,3 +23,7 @@ Open 000-default.conf file under etc/apache2/sites-available directory and add t
         ServerAlias yastabot.com
 </VirtualHost>
 ```
+
+## SSL Certificate Renewal 
+ - [Video Tutorial](https://www.youtube.com/watch?v=O97YVt8Ceu0)
+ - [Website Tutorial](https://onepagezen.com/letsencrypt-auto-renew-certbot-apache/)
